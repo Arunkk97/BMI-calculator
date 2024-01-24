@@ -1,0 +1,103 @@
+.nav-link {
+    color: white !important;
+    font-weight: 400;
+    margin-left: 120px;
+
+
+}
+
+.getApp {
+    margin-left: 120px;
+}
+
+.navbar {
+    background: #000;
+}
+.main{
+    background-image: url(./images/99.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+}
+.cu{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+
+
+
+
+.bmi {
+    background-color: #4d4855;
+    /* background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%); */
+    background-image: linear-gradient(black,green, black);
+    /* background-color: black; */
+    /* padding-bottom: 40px; */
+   height: 400px;
+   padding-top: 150px;
+
+}
+.bmibg{
+    background-image: url(./images/bmi-body-mass-index-and-weight-loss-banner-background-2GGJTW9.jpg);
+    background-size: cover;
+    height: 800px;
+    padding-bottom: 10px;
+   
+}
+
+
+.calc {
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    margin-left: 140px;
+}
+
+.clr {
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+
+}
+
+.foot {
+    /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.fCult {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.cardd {
+    background-color: black;
+
+}
+
+.card {
+    border: none;
+
+}
+
+.qoute {
+    background-color: black;
+    color: white;
+    /* height: 50px; */
+    padding: 100px;
+    font-weight: 600;
+    font-size: larger;
+}
+.dash{
+    background-image: url('./images/1128335.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+}
+.logoimg{padding-left: 100px;}

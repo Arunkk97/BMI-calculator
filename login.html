@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cult.fit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div style="height: 100vh;" class="w-100 d-flex justify-content-center align-items-center">
+        
+        <div class="card shadow  w-75">
+            <div class="align-items-center row">
+                <div class="col-lg-7  ">
+                    <h1 class=" text-center ms-3 mt-2 mb-5">Welcome</h1>
+                    <form>
+                        <div class=" mb-3">
+                            <input type="text" class="form-control ms-3" id="UsernameInput" placeholder="Username">
+                            <!-- <label for="UsernameInput">Username</label> -->
+                        </div>
+                        <div class="">
+                            <input type="password" class="form-control ms-3" id="Passwordinput" placeholder="Password">
+                            <!-- <label for="Passwordinput">Password</label> -->
+                        </div>
+                        <div>
+                           <input onclick="login()" type="button" class="btn btn-success m-3" value="Login">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5 ">
+                    <img class=" logoimg w-75"
+                        src="./images/ll.jpg"alt="">
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+<script src="./main.js"></script>
+
+
+</html>
