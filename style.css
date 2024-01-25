@@ -9,6 +9,13 @@
 .getApp {
     margin-left: 120px;
 }
+@media(max-width:700px){
+    .getApp{
+        width: 70px;
+      
+       
+    }
+}
 
 .navbar {
     background: #000;
@@ -85,7 +92,7 @@
 .foot {
     /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
     background-color: black;
-    height: 200px;
+    height: 250px;
     color: white;
 }
 
@@ -101,18 +108,22 @@
 }
 
 .cardht{
-    height: 28rem;
+    height: 14rem !important;
 }
 
 .card {
     border: none;
 
 }
-.card1{
+/* .card1{
     margin-bottom: 20px;
-}
+} */
 .card2{
     margin-top: 20px;
+}
+
+.card-img-top{
+    height: 100%;
 }
 
 .qoute {

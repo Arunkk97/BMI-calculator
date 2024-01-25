@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -40,21 +43,23 @@
 
                     <button onclick="loginPage()" class=" getApp btn btn-outline-success" type="submit">Login</button>
 
+                </ul>
+
             </div>
         </div>
     </nav>
 
     <!-- carousel -->
 
-<div class="main ">
-    <!-- <h2 class="cu">cult.fit</h2> -->
-    <!-- <img   src="./images/99.jpg" alt=""> -->
-</div>
+    <div class="main ">
+        <!-- <h2 class="cu">cult.fit</h2> -->
+        <!-- <img   src="./images/99.jpg" alt=""> -->
+    </div>
 
 
 
-  
-  
+
+
 
 
 
@@ -105,98 +110,100 @@
             <div class="container ">
                 <div class="row g-4 ">
                     <div class="col-lg-4 ">
-                        <div class="card cardhover cardht"  > 
+                        <div class="card cardhover cardht">
                             <img src="./images/3.jpg" class="card-img-top " alt="...">
-                           
+
                         </div>
                     </div>
                     <div class="col-lg-4 ">
-                        <div class="card cardhover cardht " >
+                        <div class="card cardhover cardht ">
                             <img src="./images/2.avif" class="card-img-top " alt="...">
-                            
+
                         </div>
                     </div>
                     <div class="col-lg-4 ">
-                        <div class="card cardhover cardht" >
+                        <div class="card cardhover cardht">
                             <img src="./images/4.avif" class="card-img-top " alt="...">
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 
-       <div class="card2">
+        <div class="card2">
             <div class="cards cardd ">
                 <div class="container ">
                     <div class="row g-4 ">
                         <div class="col-lg-4 ">
-                            <div class="card cardhover cardht"  > 
-                                <img src="./images/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing.jpg" class="card-img-top " alt="...">
-                               
+                            <div class="card cardhover cardht">
+                                <img src="./images/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing.jpg"
+                                    class="card-img-top " alt="...">
+
                             </div>
                         </div>
                         <div class="col-lg-4 ">
-                            <div class="card cardhover cardht " >
+                            <div class="card cardhover cardht ">
                                 <img src="./images/Fvi1nxNXsAAiVwX.jpg" class="card-img-top " alt="...">
-                                
+
                             </div>
                         </div>
                         <div class="col-lg-4 ">
-                            <div class="card cardhover cardht" >
-                                <img src="./images/pexels-william-choquette-1954524.jpg" class="card-img-top " alt="...">
-                                
+                            <div class="card cardhover cardht">
+                                <img src="./images/pexels-william-choquette-1954524.jpg" class="card-img-top "
+                                    alt="...">
+
                             </div>
                         </div>
                     </div>
                 </div>
-    
-       </div>
+
+            </div>
 
 
 
 
-   
-
-    <!-- bmi img -->
-    <div class="bmibg"></div>
 
 
+            <!-- bmi img -->
+            <div class="bmibg"></div>
 
 
-    <!-- bmi -->
 
 
-    <div class="text-center pt-5  bmi ">
-        <h1 class="text-light">BMI Calculator</h1>
-        <!-- weight -->
-        <div class="d-flex justify-content-center mt-5">
-            <h3 class="me-2 text-light">Weight (kg)</h3>
-            <input id="wResult" type="text">
-        </div>
-        <!-- height -->
-        <div class="d-flex justify-content-center mt-3">
-            <h3 class="me-2 text-light">Height (cm)</h3>
-            <input id="hResult" type="text">
-        </div>
-        <div id="output"></div>
-        <div id="outputMsg"></div>
-        <div class="d-flex justify-content-center mt-3">
-            <button onclick="finalResult()" class="me-3 calc btn btn-outline-success">Calculate</button>
-            <button onclick="clearAll()" class="clr btn btn-outline-danger">Reset</button>
-        </div>
+            <!-- bmi -->
 
 
-    </div>
+            <div class="text-center pt-5  bmi ">
+                <h1 class="text-light">BMI Calculator</h1>
+                <!-- weight -->
+                <div class="d-flex justify-content-center mt-5">
+                    <h3 class="me-2 text-light">Weight (kg)</h3>
+                    <input id="wResult" type="text">
+                </div>
+                <!-- height -->
+                <div class="d-flex justify-content-center mt-3">
+                    <h3 class="me-2 text-light">Height (cm)</h3>
+                    <input id="hResult" type="text">
+                </div>
+                <div id="output"></div>
+                <div id="outputMsg"></div>
+                <div class="d-flex justify-content-center mt-3">
+                    <button onclick="finalResult()" class="me-3 calc btn btn-outline-success">Calculate</button>
+                    <button onclick="clearAll()" class="clr btn btn-outline-danger">Reset</button>
+                </div>
 
 
-    <!-- footer -->
+            </div>
 
 
-    <div class="foot">
-        <h3 class="fCult">Cult.fit</h3>
+            <!-- footer -->
 
-    </div>
+
+            <div class="foot">
+                <h3 class="fCult">Cult.fit</h3>
+
+            </div>
 </body>
 <script src="./main.js"></script>
 
