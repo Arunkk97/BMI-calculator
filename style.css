@@ -20,6 +20,14 @@
     height: 500px;
     
 }
+@media(max-width:700px){
+    .main{
+        width: 100%;
+      
+        height: 300px;
+    }
+}
+
 .cu{
     color: white;
     font-size: 80px;
@@ -48,6 +56,16 @@
     padding-bottom: 10px;
    
 }
+
+@media(max-width:700px){
+    .bmibg{
+        width: 100%;
+      
+        height: 300px;
+    }
+}
+
+
 
 
 .calc {
@@ -78,12 +96,23 @@
 
 .cardd {
     background-color: black;
+  
 
+}
+
+.cardht{
+    height: 28rem;
 }
 
 .card {
     border: none;
 
+}
+.card1{
+    margin-bottom: 20px;
+}
+.card2{
+    margin-top: 20px;
 }
 
 .qoute {
@@ -94,10 +123,30 @@
     font-weight: 600;
     font-size: larger;
 }
+
 .dash{
     background-image: url('./images/1128335.jpg');
     background-size: cover;
     width: 100%;
     height: 470px;
 }
+
+@media(max-width:700px){
+    .dash{
+        width: 100%;
+      
+        height: 300px;
+       
+    }
+}
+
+
 .logoimg{padding-left: 100px;}
+
+@media(max-width:700px){
+    .inptt{
+        width: 75%;
+      
+        height: 50px;
+    }
+}
